@@ -27,7 +27,7 @@ public class GameRunner {
                 game.increaseHumanScore();
             }
 
-            GamePrinter.printResult(result);
+            GamePrinter.printResult(result, game);
         }
 
         GamePrinter.printWinner(game.getWinner());
